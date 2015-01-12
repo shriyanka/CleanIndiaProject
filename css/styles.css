@@ -1,0 +1,381 @@
+
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background: #F0F0BE;
+	background:#EFF1C5;
+	background-image: url('/img/clean.jpg') repeat;
+	height: 800px;
+
+}
+
+body{
+	min-height: 600px;
+    padding: 100px 0 50px;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	box-shadow:0 0 25px rgba(0,0,0,0.3) inset;
+	height:800px;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+section, footer{
+	display: block;
+}
+
+
+/*----------------------------
+	Styling the presentation
+-----------------------------*/
+
+#impress .step{
+	width:700px;
+	height: 600px;
+	position:relative;
+	margin:0 auto;
+	opacity: 0;
+	
+	-moz-transition:1s opacity;
+	-webkit-transition:1s opacity;
+	transition:1s opacity;
+}
+
+#impress .step.active{
+	opacity:1;
+}
+
+#impress h2{
+	margin-left: 250px;
+	font: normal 44px/1.5 'PT Sans Narrow', sans-serif;
+	
+	color:#D47521 ;
+	color: #CE8D41;
+
+	position:absolute;
+	z-index:10;
+}
+
+#impress p{
+	font: normal 18px/1.3 'Open Sans', sans-serif;
+	color:#27333f;
+	position:absolute;
+	z-index:10;
+}
+
+#impress img{
+	position:absolute;
+	z-index:1;
+	margin-top: 150px;
+	margin-left: 550px;
+	margin-right: 100px;
+}
+
+
+/*----------------------------
+	Slide 1 - Intro
+-----------------------------*/
+
+
+
+
+#intro #intro3 #intro2 #intro1 #upload1 #upload #sim #music #connect #connect1 #intro9 p{
+	font-size: 22px;
+    left: 290px;
+    line-height: 1.6;
+    top: 220px;
+    white-space: nowrap;
+}
+
+#impress #intro{
+	width: 500px;
+}
+
+#intro h2{
+
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#intro img {
+	margin-top: 125px;
+	margin-left: 550px;
+	margin-right: 100px;
+}
+
+#impress #sim{
+	width: 700px;
+}
+
+#sim h2{
+	margin-top: 200px;
+	margin-left: 275px;
+	margin-right: -350px;
+	text-align: center;
+    width: 100%;
+}
+
+#sim img {
+	margin-top: 125px;
+	margin-left: -50px;
+	margin-right: 100px;
+}
+
+#impress #connect{
+	width: 1000px;
+}
+
+#connect h2{
+	margin-top:300px;
+	margin-right: 800px; 
+	margin-left: -200px;
+	text-align: center;
+    width: 800px;
+}
+
+#connect img{
+margin-top: 121px;
+	margin-left: 650px;
+	margin-right: 100px;	
+}
+
+#impress #connect1{
+	width: 800px;
+}
+
+#connect1 h2{
+	margin-top:180px;
+	margin-right: 800px; 
+	margin-left: -200px;
+	text-align: center;
+    width: 800px;
+}
+
+#connect1 img {
+	margin-top: 115px;
+	margin-left: 650px;
+	margin-right: 100px;
+}
+
+#impress #music{
+	width: 700px;
+}
+
+#music h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #upload{
+	width: 900px;
+}
+
+#upload h2{
+	margin-top: 30px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#upload img{
+margin-top: 200px;
+	margin-left: 250px;
+	margin-right: 100px;	
+}
+
+#impress #upload2{
+	width: 100%;
+}
+
+#upload2 h2{
+	margin-top: 60px;
+	margin-left: -450px;
+	text-align: center;
+	width: 900px;
+    
+}
+
+#upload2 img{
+	margin-top: 200px;
+	margin-left: -170px;
+	   
+}
+
+
+#impress #intro1{
+	width: 900px;
+}
+
+#intro1 h2{
+	margin-top: 400px;
+	margin-left: 170px;
+	margin-right: -200px;
+	text-align: center;
+    width: 100%;
+}
+
+#intro1 img {
+	margin-top: 150px;
+	margin-left: -25px;
+	margin-right: 100px;
+}
+
+#impress #intro2{
+	width: 900px;
+}
+
+#intro2 h2{
+	margin-top: 400px;
+	margin-left: 50px;
+	margin-right: -200px;
+	text-align: center;
+    width: 100%;
+}
+
+#intro2 img {
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+#impress #intro3 {
+	width: 900px;
+}
+
+#impress #intro4 {
+	width: 900px;
+}
+#intro3 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+#intro4 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+#impress #intro5 {
+	width: 900px;
+}
+#intro5 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #intro6 {
+	width: 900px;
+}
+#intro6 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+#impress #intro7 {
+	width: 900px;
+}
+#intro7 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #intro8 {
+	width: 900px;
+}
+#intro8 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #intro9 {
+	width: 900px;
+}
+#intro9 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #intro10 {
+	width: 900px;
+}
+#intro10 h2{
+	margin-top: 200px;
+	margin-right: 600px;
+	margin-left: -50px;
+	text-align: center;
+    width: 100%;
+}
+
+#impress #intro11 {
+	width: 900px;
+}
+
+#intro11 img{
+	margin-top: 50px;
+	margin-right: -100px;
+	margin-left: 505px;
+	
+	
+}
+
+.step{
+	opacity:0;
+}
+
+#impress .step.active{
+	opacity:1;
+}
+.step-overview .step {
+  opacity: 1;
+  cursor: pointer;
+  width: 700px;
+}
+.no-support-message { display:none; } 
+.impress-not-supported .no-support-message { display:block; }
+
+
